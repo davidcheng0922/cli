@@ -13,6 +13,7 @@ const (
 	SubCmdGet     = "get"
 	SubCmdInstall = "install"
 	SubCmdTrim    = "trim"
+	SubCmdUpgrade = "upgrade"
 
 	// The second layer of subcommands (noun)
 	SubCmdPreflight = "preflight"
@@ -45,6 +46,7 @@ const (
 	CmdOptNodeSelector    = "node-selector"
 	CmdOptTolerations     = "tolerations"
 	CmdOptAll             = "all"
+	CmdOptDataEngine      = "data-engine"
 
 	// SPDK options
 	CmdOptAllowPci             = "allow-pci"
